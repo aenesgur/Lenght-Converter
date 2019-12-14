@@ -1,0 +1,38 @@
+body{
+    margin-top:70px;
+    background:black ;
+    color: #fff;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    width: 100%;
+    color: #fff;;
+    
+    }
+.no-outline:focus {
+    outline: none;
+    }
+
+.mCard,.mCard input{
+    background-color: rgb(0, 194, 253);
+}    
+
+.kmCard,.kmCard input{
+    background-color: rgb(84, 125, 238);
+}
+
+.cmCard,.cmCard input{
+    background-color: rgb(11, 250, 23);
+}
+
+.mmCard,.mmCard input{
+    background-color: rgb(243, 26, 26);
+}
